@@ -1,5 +1,11 @@
 # dotfiles
-Color setup:
+
+
+## Terminal Setup
+[Oh my zsh](https://ohmyz.sh/#install)
+[P10k](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
+
+### Color Config on iTerm
 
 [Use Builtin Solarized Dark](https://iterm2colorschemes.com/)
 
