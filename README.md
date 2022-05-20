@@ -2,8 +2,10 @@
 
 
 ## Terminal Setup
-[Oh my zsh](https://ohmyz.sh/#install)
-[P10k](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
+
+- [iTerm2](https://iterm2.com/)
+- [Oh my zsh](https://ohmyz.sh/#install)
+- [P10k](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
 
 ### Color Config on iTerm
 
