@@ -36,3 +36,7 @@ Don't have any dotfiles yet, but definitely use aliases in my `.zshrc` that run 
 
 ### Mac settings
 - `defaults write -g ApplePressAndHoldEnabled -bool false` - makes vim motions in vscode actually work (e.g. holding j to go down)
+
+## Random .zshrc additions:
+unsetopt inc_append_history
+unsetopt share_history
