@@ -1,0 +1,3 @@
+macos-option-as-alt= true
+keybind = alt+delete=text:\x1bd
+keybind = cmd+delete=text:\x0b
