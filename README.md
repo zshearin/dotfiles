@@ -6,7 +6,7 @@ Don't have any dotfiles yet, but definitely use aliases in my `.zshrc` that run 
 
 ## Terminal Setup
 
-- [iTerm2](https://iterm2.com/)
+- [Ghostty](https://ghostty.org/)
 - [Oh my zsh](https://ohmyz.sh/#install)
 - [P10k](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
 
