@@ -36,3 +36,6 @@ Don't have any dotfiles yet, but definitely use aliases in my `.zshrc` that run 
 ## Random .zshrc additions:
 unsetopt inc_append_history
 unsetopt share_history
+
+## Link ghostty config to this repo cloned in home:
+ln -s ~/dotfiles/ghostty/.config/ghostty/config ~/.config/ghostty/config
