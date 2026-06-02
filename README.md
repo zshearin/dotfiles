@@ -39,3 +39,11 @@ unsetopt share_history
 
 ## Link ghostty config to this repo cloned in home:
 ln -s ~/dotfiles/ghostty/.config/ghostty/config ~/.config/ghostty/config
+
+## replace powerlevel 10k with starship (add starship.toml later):
+brew install starship
+eval "$(starship init zsh)" # add to dotfiles - make sure reference to it linked
+starship preset catppuccin-powerline -o ~/dotfiles/starship/starship.toml # create toml config of starship in my dotfiles - may want to change which one
+ln -s ~/dotfiles/starship/starship.toml ~/.config/starship.toml # link dotfile config to comp config
+
+A couple notes - I think i want a config that takes it to a new line
