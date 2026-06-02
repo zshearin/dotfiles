@@ -33,10 +33,6 @@ Don't have any dotfiles yet, but definitely use aliases in my `.zshrc` that run 
 - [Use Builtin Solarized Dark](https://iterm2colorschemes.com/)
 - [Set as default to all windows](https://superuser.com/questions/228965/set-default-colour-for-all-iterm2-windows)
 
-
-### Mac settings
-- `defaults write -g ApplePressAndHoldEnabled -bool false` - makes vim motions in vscode actually work (e.g. holding j to go down)
-
 ## Random .zshrc additions:
 unsetopt inc_append_history
 unsetopt share_history
