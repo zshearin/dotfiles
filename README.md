@@ -6,7 +6,7 @@ Don't have any dotfiles yet, but definitely use aliases in my `.zshrc` that run 
 
 ## Terminal Setup
 
-- Cmux 
+- Cmux (uses ghostty config for terminal behavior)
 - [Oh my zsh](https://ohmyz.sh/#install)
 - Starship theme
 
