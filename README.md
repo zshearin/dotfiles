@@ -47,3 +47,6 @@ starship preset catppuccin-powerline -o ~/dotfiles/starship/starship.toml # crea
 ln -s ~/dotfiles/starship/starship.toml ~/.config/starship.toml # link dotfile config to comp config
 
 A couple notes - I think i want a config that takes it to a new line
+
+
+Actually - I think I want to change from ghostty to cmux 
