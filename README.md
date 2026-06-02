@@ -6,47 +6,18 @@ Don't have any dotfiles yet, but definitely use aliases in my `.zshrc` that run 
 
 ## Terminal Setup
 
-- [Ghostty](https://ghostty.org/)
+- Cmux 
 - [Oh my zsh](https://ohmyz.sh/#install)
-- [P10k](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
-
-### P10k config settings
-- Prompt style: rainbow
-- Character set: unicode
-- Time: 12-hour format
-- Prompt Separators: Slanted
-- Prompt Heads: Sharp
-- Prompt Tails: Flat
-- Prompt Height: Two lines
-- Prompt Connection: Disconnected
-- Prompt Frame: Left
-- Frame Color: Light
-- Prompt Spacing: Sparse
-- Icons: Few icons
-- Prompt Flow: Fluent
-- Enable Transient: Yes
-- Instant Prompt Mode: 1 Verbose
+- Starship theme
 
 
-### Color Config on iTerm
+## Starship config (how I configured, can skip step 3 and just use existing `starship.toml`:
+1. `brew install starship`
+2. `eval "$(starship init zsh)"` # add to dotfiles - make sure reference to it linked
+3. `starship preset catppuccin-powerline -o ~/dotfiles/starship/starship.toml` # create toml config of starship in my dotfiles - may want to change which one
+4. `ln -s ~/dotfiles/starship/starship.toml ~/.config/starship.toml` # link dotfile config to comp config
+5. Change starship.toml to have `[line_break]` section `disabled = false`
 
-- [Use Builtin Solarized Dark](https://iterm2colorschemes.com/)
-- [Set as default to all windows](https://superuser.com/questions/228965/set-default-colour-for-all-iterm2-windows)
+## add to .zshrc (using zsh folder as my home). If at work, also add work specific ones after (to overwrite):
+DOTFILES="$HOME/dotfiles/zsh"
 
-## Random .zshrc additions:
-unsetopt inc_append_history
-unsetopt share_history
-
-## Link ghostty config to this repo cloned in home:
-ln -s ~/dotfiles/ghostty/.config/ghostty/config ~/.config/ghostty/config
-
-## replace powerlevel 10k with starship (add starship.toml later):
-brew install starship
-eval "$(starship init zsh)" # add to dotfiles - make sure reference to it linked
-starship preset catppuccin-powerline -o ~/dotfiles/starship/starship.toml # create toml config of starship in my dotfiles - may want to change which one
-ln -s ~/dotfiles/starship/starship.toml ~/.config/starship.toml # link dotfile config to comp config
-
-A couple notes - I think i want a config that takes it to a new line
-
-
-Actually - I think I want to change from ghostty to cmux 
