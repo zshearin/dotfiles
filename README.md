@@ -21,3 +21,11 @@ Don't have any dotfiles yet, but definitely use aliases in my `.zshrc` that run 
 ## add to .zshrc (using zsh folder as my home). If at work, also add work specific ones after (to overwrite):
 DOTFILES="$HOME/dotfiles/zsh"
 
+## Setting up lazyvim
+```
+mkdir -p ~/dotfiles/nvim
+cp -a ~/.config/nvim/. ~/dotfiles/nvim/
+
+mv ~/.config/nvim ~/.config/nvim.backup-$(date +%Y%m%d-%H%M%S)
+ln o-s ~/dotfiles/nvim ~/.config/nvim
+```
