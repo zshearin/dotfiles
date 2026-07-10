@@ -27,5 +27,12 @@ mkdir -p ~/dotfiles/nvim
 cp -a ~/.config/nvim/. ~/dotfiles/nvim/
 
 mv ~/.config/nvim ~/.config/nvim.backup-$(date +%Y%m%d-%H%M%S)
-ln o-s ~/dotfiles/nvim ~/.config/nvim
+ln -s ~/dotfiles/nvim ~/.config/nvim
 ```
+
+## herdr
+```
+ln -s ~/dotfiles/herdr ~/.config/herdr
+```
+
+
