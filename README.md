@@ -6,7 +6,7 @@ Don't have any dotfiles yet, but definitely use aliases in my `.zshrc` that run 
 
 ## Terminal Setup
 
-- Cmux (uses ghostty config for terminal behavior)
+- iTerm2 solarized dark with starship (using with herdr currently) 
 - [Oh my zsh](https://ohmyz.sh/#install)
 - Starship theme
 
@@ -35,4 +35,11 @@ ln -s ~/dotfiles/nvim ~/.config/nvim
 ln -s ~/dotfiles/herdr ~/.config/herdr
 ```
 
+## Agent skills
+
+Reusable personal agent skills live under [`skills/`](skills/README.md). Install them into the standard global skills directory with:
+
+```bash
+~/dotfiles/skills/install.sh
+```
 

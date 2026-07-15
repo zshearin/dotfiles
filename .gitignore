@@ -1,2 +1,4 @@
 .env
 shopify/
+__pycache__/
+*.pyc
