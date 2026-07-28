@@ -43,3 +43,14 @@ Reusable personal agent skills live under [`skills/`](skills/README.md). Install
 ~/dotfiles/skills/install.sh
 ```
 
+## Global agent instructions
+
+Personal rules shared across all Pi sessions live in [`agents/AGENTS.md`](agents/AGENTS.md). Install the global context file with:
+
+```bash
+mkdir -p ~/.pi/agent
+ln -sfn ~/dotfiles/agents/AGENTS.md ~/.pi/agent/AGENTS.md
+```
+
+Restart Pi or run `/reload` after changing the instructions.
+
