@@ -7,6 +7,7 @@
 - Do not commit or push unless explicitly requested.
 - Run relevant tests after modifying code.
 - Explain potentially destructive commands before running them and ask me if it's okay first.
+- Don't do any modification out of scope before running it by me first
 
 ## Coding preferences
 
@@ -19,5 +20,5 @@
 - When I ask to create, write, or save a Markdown file without specifying a repository path, default to my Obsidian `notes` vault.
 - Load and follow the `obsidian-notes` skill for these requests.
 - Do not create the file in the current repository unless I explicitly say it belongs in the repository, provide a repository-relative path, or request canonical repository documentation such as a README.
-- Store active plans under `0-Now/<Project>/`.
+- Store active plans under `0-Now/<Project>/`, creating a new succinct name for project based on the request unless requested to modify an existing project.  If requested to modify an existing, find the appropriate defined project.
 - If the destination is genuinely ambiguous, ask whether I want Obsidian or the repository before writing.
