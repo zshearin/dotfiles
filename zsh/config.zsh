@@ -31,3 +31,7 @@ ensure_google_tasks_token() {
     export GOOGLE_TASKS_TOKEN_EXPIRES_AT="$((now + 3300))" # refresh after ~55 minutes
   fi
 }
+
+gopen() {
+  open https://tasks.google.com
+}
